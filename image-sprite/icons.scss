@@ -1,0 +1,27 @@
+// this file is compile with compass.
+
+@import "compass/utilities/sprites";
+
+[class^="icon-"],
+[class*="icon-"] {
+	display: inline-block;
+}
+
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+$icon: sprite-map("icon/*.png", $spacing: 10px);
+
+
+
+.icon-certify {
+  @include sprite-dimensions($icon, certify);
+}
+
+.icon-goal {
+  @include sprite-dimensions($icon, goal);
+}
+
+.icon-offer {
+  @include sprite-dimensions($icon, offer);
+}

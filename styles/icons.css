@@ -1,0 +1,36 @@
+[class^="icon-"],
+[class*="icon-"] {
+  display: inline-block;
+}
+
+.icon-sprite, .icon-certify, .icon-goal, .icon-offer {
+  background-image: url('../images/icon-s1dbd11dd85.png');
+  background-repeat: no-repeat;
+}
+
+.icon-certify {
+  background-position: 0 0;
+}
+
+.icon-goal {
+  background-position: -81px 0;
+}
+
+.icon-offer {
+  background-position: -180px 0;
+}
+
+.icon-certify {
+  height: 106px;
+  width: 81px;
+}
+
+.icon-goal {
+  height: 101px;
+  width: 99px;
+}
+
+.icon-offer {
+  height: 88px;
+  width: 97px;
+}
