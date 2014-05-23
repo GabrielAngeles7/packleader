@@ -14,14 +14,34 @@ $icon: sprite-map("icon/*.png", $spacing: 10px);
 
 
 
-.icon-certify {
-  @include sprite-dimensions($icon, certify);
+.icon-telephone {
+    @include sprite-dimensions($icon, telephone);
 }
 
-.icon-goal {
-  @include sprite-dimensions($icon, goal);
+.icon-right-arrow {
+    @include sprite-dimensions($icon, right-arrow);
 }
 
-.icon-offer {
-  @include sprite-dimensions($icon, offer);
+.icon-sharing {
+    @include sprite-dimensions($icon, right-arrow);
+}
+
+.icon-left-quote {
+    @include sprite-dimensions($icon, left-quote);
+}
+
+.icon-right-quote {
+    @include sprite-dimensions($icon, right-quote);
+}
+
+.icon-left-arrow-lg {
+    @include sprite-dimensions($icon, left-arrow-lg);
+}
+
+.icon-down-arrow-lg {
+    @include sprite-dimensions($icon, down-arrow-lg);
+}
+
+.icon-down-arrow-lg-white {
+    @include sprite-dimensions($icon, down-arrow-lg-white);
 }

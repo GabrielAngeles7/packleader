@@ -1,0 +1,88 @@
+
+
+
+// Banner
+
+.banner--main {
+    width: 100%;
+    height: 470px;
+    background: #ecf5fc url('@{imagePath}/homepage-banner.jpg') center 100px no-repeat;
+    background-attachment: fixed;
+
+    @media (min-width: @screen-sm-min) {
+        margin-top: 105px;
+    }
+}
+
+.banner-title {
+    position: relative;
+    z-index: 3;
+    width: 450px;
+    margin: 150px 80px;
+    padding: 0 40px;
+    color: #222;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+
+    &:before,
+    &:after {
+        position: absolute;
+        content: '';
+        clear: both;
+        width: 33px;
+        height: 47px;
+        background: url('@{imagePath}/banner-title-sprite.png') no-repeat;
+    }
+
+    &:before {
+        top: -20px;
+        left: 20px;
+    }
+
+    &:after {
+        bottom: -25px;
+        right: 90px;
+        background-position: 0 -49px;
+    }
+}
+
+.banner-bg-full {
+    position: absolute;
+    z-index: -1;
+    top: 104px;
+    left: 0;
+    width: 100%;
+    height: 360px;
+    background: url('@{imagePath}/bg-default.svg') no-repeat;
+    background-size: 100%;
+}
+
+.banner--services {
+    width: 100%;
+    height: 470px;
+    margin-top: 105px;
+    background: #ecf5fc url('@{imagePath}/services-banner.jpg') right 100px no-repeat;
+    background-attachment: fixed;
+}
+
+.banner-bg-faded {
+    position: absolute;
+    z-index: 2;
+    top: 104px;
+    left: 0;
+    width: 100%;
+    height: 360px;
+    background: url('@{imagePath}/bg-default-faded.svg') no-repeat;
+    background-size: 100%;
+}
+
+.banner--about {
+    width: 100%;
+    height: 600px;
+    background: #fff url('@{imagePath}/about-banner.jpg') center 100px no-repeat;
+    
+    .banner-title {
+        margin-top: 270px;
+    }
+}

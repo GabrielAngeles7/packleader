@@ -3,34 +3,79 @@
   display: inline-block;
 }
 
-.icon-sprite, .icon-certify, .icon-goal, .icon-offer {
-  background-image: url('../images/icon-s1dbd11dd85.png');
+.icon-sprite, .icon-down-arrow-lg-white, .icon-down-arrow-lg, .icon-left-arrow-lg, .icon-left-quote, .icon-right-arrow, .icon-right-quote, .icon-sharing, .icon-telephone {
+  background-image: url('../images/icon-s95dd05a980.png');
   background-repeat: no-repeat;
 }
 
-.icon-certify {
+.icon-down-arrow-lg-white {
   background-position: 0 0;
 }
 
-.icon-goal {
-  background-position: -81px 0;
+.icon-down-arrow-lg {
+  background-position: -44px 0;
 }
 
-.icon-offer {
-  background-position: -180px 0;
+.icon-left-arrow-lg {
+  background-position: -88px 0;
 }
 
-.icon-certify {
-  height: 106px;
-  width: 81px;
+.icon-left-quote {
+  background-position: -100px 0;
 }
 
-.icon-goal {
-  height: 101px;
-  width: 99px;
+.icon-right-arrow {
+  background-position: -110px 0;
 }
 
-.icon-offer {
-  height: 88px;
-  width: 97px;
+.icon-right-quote {
+  background-position: -138px 0;
+}
+
+.icon-sharing {
+  background-position: -148px 0;
+}
+
+.icon-telephone {
+  background-position: -176px 0;
+}
+
+.icon-telephone {
+  height: 28px;
+  width: 28px;
+}
+
+.icon-right-arrow {
+  height: 28px;
+  width: 28px;
+}
+
+.icon-sharing {
+  height: 28px;
+  width: 28px;
+}
+
+.icon-left-quote {
+  height: 8px;
+  width: 10px;
+}
+
+.icon-right-quote {
+  height: 8px;
+  width: 10px;
+}
+
+.icon-left-arrow-lg {
+  height: 24px;
+  width: 12px;
+}
+
+.icon-down-arrow-lg {
+  height: 11px;
+  width: 44px;
+}
+
+.icon-down-arrow-lg-white {
+  height: 11px;
+  width: 44px;
 }

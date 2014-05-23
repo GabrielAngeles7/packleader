@@ -42,6 +42,32 @@ var util = {
             });
 
         }
+    },
+    Services: {
+        init: function() {
+            this.masonryGrid();
+            this.blockAccordion();
+        },
+        masonryGrid: function() {
+            // var container = document.querySelector('.block-listings');
+            // var msnry = new Masonry(container, {
+            //     // options
+            //     columnWidth: 70,
+            //     itemSelector: '.block-spread'
+            // });
+            var mediaItemContainer = $('.block-listings');
+            mediaItemContainer.masonry({
+                itemSelector: '.block-spread'
+            });
+            $(mediaItemContainer).masonry('reloadItems');
+            $(mediaItemContainer).masonry('layout');
+        },
+        blockAccordion: function() {
+            $('.block-listings').hide();
+            $('.block-trigger').click(function() {
+                $(this).closest('.section--services').find('.block-listings').slideToggle();
+            });
+        }
     }
 };
 
@@ -51,4 +77,5 @@ var util = {
 $(window).load(function() {
     util.Global.init();
     util.Banner.init();
+    util.Services.init();
 });

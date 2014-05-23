@@ -1,0 +1,46 @@
+
+.spread {
+    position: relative;
+    padding-right: 40px;
+    min-height: 220px;
+
+    &:last-child {
+        &:after {
+            display: none;
+        }
+    }
+
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        content: '';
+        width: 1px;
+        height: 100%;
+        
+        #gradient > .vertical-three-colors(#dbd8d5, #8f8f8f, 50%, #dbd8d5)
+        
+    }
+}
+
+
+.greetings {
+    float: left;
+    text-align: center;
+    color: #bbbdc0;
+    font-size: 24px;
+    font-family: 'Gotham Rounded';
+
+    a {
+        color: #bbbdc0;
+    }
+}
+
+
+
+.pl-0 {
+
+    @media (min-width: @screen-md) {
+        padding-left: 0;    
+    }
+}

@@ -3928,11 +3928,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  padding: 30px 0 10px;
+  padding: 10px;
   background: #f3f3f5;
   border-bottom: 1px solid #e7e7e7;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    padding: 30px 0 10px;
+  }
 }
 .navbar-default .navbar-brand {
   color: #777777;

@@ -38,13 +38,9 @@
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="index.php">Home</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="services.php">Services</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Features</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-omega">
-          <li><a href="#" class="text-orange">AUSTRILASIA</a></li>
-          <li><a href="#">PACIFIC</a></li>
         </ul>
       </nav>
     </div>
